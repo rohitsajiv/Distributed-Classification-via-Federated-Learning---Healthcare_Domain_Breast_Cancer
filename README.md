@@ -99,28 +99,27 @@ The notebook performs detailed evaluation including:
 
 ## Dependencies
 
-```
-torch
-numpy
-pandas
-scikit-learn
-flwr (Flower)
-ray (for simulation)
-```
+All dependencies are listed in [requirements.txt](requirements.txt). Ensure you use **Python 3.10** and the **flwr_env** environment.
 
 ## How to Run
 
-1. **Activate the virtual environment**:
+
+1. **Activate the Python 3.10 environment**:
    ```bash
-   source fl_env/bin/activate
+   source flwr_env/bin/activate
    ```
 
-2. **Run the notebook**:
+2. **Install dependencies** (if not already installed):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the notebook**:
    ```bash
    jupyter notebook main.ipynb
    ```
 
-3. **Execute cells sequentially** to:
+4. **Execute cells sequentially** to:
    - Load and preprocess data
    - Train centralized model
    - Setup federated learning

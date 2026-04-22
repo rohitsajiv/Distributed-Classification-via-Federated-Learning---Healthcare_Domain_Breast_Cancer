@@ -1,0 +1,124 @@
+# Virtual Environments
+fl_env/
+flwr_env/
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.jupyter
+*.ipynb_checkpoints
+
+# PyCharm & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/settings.json
+.vscode/launch.json
+.project
+.pydevproject
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data & Models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pth
+*.pt
+*.model
+*.ckpt
+data/
+datasets/
+checkpoints/
+models/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Ray/Flower
+results/
+ray_results/
+ray/
+flower_logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# IDE specific
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Misc
+.cache/
+*.egg
+dist/
+build/
+*.zip
+*.tar.gz
+.hypothesis/
